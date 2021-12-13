@@ -1,0 +1,23 @@
+.Board {
+    margin: 20px;
+}
+
+.Row {
+    display: flex;
+    flex-direction: row;
+}
+
+.Col {
+    display: flex;
+    flex-direction: column;
+}
+
+.Col-Border-V {
+    border-left: 2px solid black;
+    border-right: 2px solid black;
+}
+
+.Col-Border-H {
+    border-top: 2px solid black;
+    border-bottom: 2px solid black;
+}

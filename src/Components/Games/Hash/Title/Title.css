@@ -1,0 +1,19 @@
+.Container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.Title,
+.SubTitle {
+    font-weight: 300;
+}
+
+.Title {
+    font-size: clamp(2.6rem, 3vw, 4rem);
+}
+
+.SubTitle {
+    font-size: clamp(1.6rem, 2vw, 2.6rem);
+}

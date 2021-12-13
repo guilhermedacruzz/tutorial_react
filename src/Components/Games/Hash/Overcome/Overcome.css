@@ -1,0 +1,4 @@
+.Overcome {
+    font-weight: 300;
+    font-size: clamp(1.6rem, 2vw, 2.6rem);
+}
